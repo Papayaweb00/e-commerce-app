@@ -1,0 +1,481 @@
+@media screen and (max-width: 565px) {
+    .container_footer1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .container_2_menu {
+        flex-direction: column;
+        align-items: start;
+        gap: 0;
+    }
+
+    header {
+        justify-content: space-around;
+        align-items: start;
+    }
+
+    .container_footer1 .insta div {
+        bottom: 147px;
+        font-size: 1em;
+    }
+
+    .container_container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container_5 {
+        padding: 0;
+        gap: 100px;
+    }
+
+    .link_shop_nav {
+        padding: 10px 0 29px;
+    }
+
+    .day,
+    .day div {
+        display: flex;
+        gap: 5px;
+    }
+
+    .discount_img {
+        width: 100%;
+    }
+
+    .container_5_cards {
+        width: 45%;
+    }
+
+    .container_5_cards .summer h1 {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .container_5_cards__form {
+        content: 'Discount';
+        background-color: #fff;
+        padding: 15px 25px 70px;
+        font-size: 1.3em;
+        bottom: 110px;
+        border-radius: 175px;
+        z-index: 1;
+    }
+
+    .container_5_cards .summer {
+        padding: 130px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .container_5_part2 {
+        flex-direction: column;
+        align-items: start;
+        gap: 15px;
+        font-size: 1.3em;
+        padding: 0 15px 35px;
+    }
+
+    .container_4 .trend {
+        align-items: center;
+        justify-content: center;
+        padding: 0 25px;
+    }
+
+    .container_4 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container_image_produit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container_footer2 {
+        flex-direction: column;
+        display: flex;
+        align-items: start;
+        gap: 95px;
+        padding: 0;
+        width: 100%;
+    }
+
+    .container_footer2 .footer_col1 {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .container_footer2 .footer_col1 img,
+    .container_footer2 .footer_col1 p,
+    .container_footer2 .footer_col1 div {
+        padding: 15px;
+    }
+
+
+    .container_footer2 .footer_col1 div img {
+        padding: 5px;
+        width: 11%;
+    }
+
+    .container_footer2 .footer_col1 {
+        gap: 0;
+    }
+
+    .container_footer2 .footer_col2,
+    .container_footer2 .footer_col3,
+    .container_footer2 .footer_col4 {
+        padding: 15px;
+    }
+
+    .footer_col4 form {
+        border: none;
+        padding: 0 0 0 21px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .footer_col4 form input[type="email"] {
+        background-color: #fff;
+        border: 2px solid rgb(242, 241, 241);
+        padding: 15px;
+        border-radius: 25px;
+        width: 100%;
+    }
+
+    footer>p {
+        padding: 55px 0 25px;
+        width: 89%;
+    }
+
+    .container_footer2 .footer_col1 p {
+        width: 80%;
+    }
+
+
+    .footer_col4 form input[type="submit"] {
+        width: 75%;
+        background: rgb(177, 3, 3);
+    }
+
+    .container_2_menu ul {
+        display: flex;
+        font-size: 1.4em;
+        gap: 13px;
+        flex-wrap: wrap;
+    }
+
+    .container_1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .division-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 9px;
+    }
+
+    .row_prod {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 11px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container_footer1 {
+        display: grid;
+    }
+
+    .slider_nav {
+        top: 50rem;
+    }
+    
+    .slider_wrapper {
+
+        max-width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .slider {
+        aspect-ratio: 7 / 10;
+        display: flex;
+        margin: 0 auto;
+        overflow-x: auto;
+        scrollbar-width: none;
+        width: 100%;
+        align-items: center;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        border-radius: 0.5rem;
+        z-index: 1;
+    }
+
+
+    .slider .cont {
+        font-size: 10px;
+        color: rgb(189, 6, 6);
+        text-align: center;
+    }
+
+    .navbar_brand1 {
+        display: block;
+    }
+
+    .container_footer2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container_footer2 .footer_col1 div img {
+        padding: 5px;
+        width: 13%;
+    }
+
+    .container_footer1 .insta div {
+        bottom: 169px;
+        font-size: 1em;
+    }
+
+    .container_4 {
+        display: flex;
+        align-items: normal;
+        justify-content: normal;
+        gap: 13px;
+        padding: 95px 25px;
+    }
+
+    .container_container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 19px;
+    }
+
+    .container_5 {
+        padding: 0;
+        gap: 100px;
+    }
+
+    .link_shop_nav {
+        padding: 10px 0 29px;
+    }
+
+    .day,
+    .day div {
+        display: flex;
+        gap: 5px;
+    }
+
+    .discount_img {
+        width: 100%;
+    }
+
+    .container_5_cards {
+        object-fit: cover;
+    }
+
+    .container_5_cards .summer h1 {
+        text-align: center;
+    }
+
+    .container_5_cards__form {
+        content: 'Discount';
+        background-color: #fff;
+        padding: 35px 45px 93px;
+        font-size: 1.5em;
+        bottom: 100px;
+        border-radius: 175px;
+        z-index: 1;
+    }
+
+    .container_5_cards .summer {
+        padding: 130px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .container_5_part2 {
+        flex-wrap: wrap;
+        align-items: start;
+        gap: 19px;
+        font-size: 1.2em;
+        padding: 0 15px 35px;
+    }
+
+    .container_1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .container_2_menu {
+        align-items: start;
+        gap: 0;
+    }
+
+    .container_2_menu h1 {
+        font-size: 1em;
+        padding: 5px 0;
+    }
+
+    .container_2_menu ul {
+        gap: 25px;
+        padding: 5px 0;
+        font-size: 1em;
+        flex-wrap: wrap;
+    }
+
+    .row_prod {
+        gap: 11px;
+        flex-wrap: wrap;
+    }
+
+    #respon {
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        bottom: 0;
+        right: 190%;
+        transition: all 1s;
+        padding: 10px 0 30px;
+        overflow: hidden;
+    }
+
+    input[type="checkbox"]:checked~#respon {
+        right: 0;
+    }
+
+    header>label,
+    header>#respon>.menu>label {
+        display: block;
+        left: 0;
+    }
+
+    header>#respon>.menu {
+        display: flex;
+        align-items: center;
+        gap: 75px;
+        justify-content: center;
+    }
+
+    header>div .navbar .navbar_nav {
+        flex-direction: column;
+    }
+
+    header>form {
+        display: block;
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 768px) and (min-width: 1024px) and (max-width: 1025px) {
+    .row_prod img {
+        width: 100%;
+    }
+
+    .container_footer2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container_footer2 .footer_col1 div img {
+        padding: 5px;
+        width: 13%;
+    }
+
+    .container_footer1 .insta div {
+        bottom: 169px;
+        font-size: 1em;
+    }
+
+    .new {
+        top: -379px;
+        font-size: 0.7em;
+    }
+
+    .container_footer1 .insta div {
+        bottom: 213px;
+        font-size: 1em;
+    }
+
+    .container_container {
+        margin: 0 15px;
+    }
+
+    .container_5 {
+        padding: 0;
+        gap: 100px;
+    }
+
+    .link_shop_nav {
+        padding: 10px 0 29px;
+    }
+
+    .day,
+    .day div {
+        display: flex;
+        gap: 5px;
+    }
+
+    .discount_img {
+        width: 50%;
+    }
+
+    .container_5_cards {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .container_5_cards .summer h1 {
+        font-size: 2em;
+        /* width: 100%; */
+        text-align: center;
+    }
+
+    .container_5_cards__form {
+        content: 'Discount';
+        background-color: #fff;
+        padding: 15px 25px 70px;
+        font-size: 1.3em;
+        bottom: 110px;
+        border-radius: 175px;
+        z-index: 1;
+    }
+
+    .container_5_cards .summer {
+        padding: 130px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .container_5_part2 {
+        flex-wrap: wrap;
+        align-items: start;
+        gap: 19px;
+        font-size: 1.2em;
+        padding: 0 15px 35px;
+    }
+
+    .container_4 {
+        display: flex;
+        gap: 55px;
+        padding: 55px 90px;
+    }
+}
